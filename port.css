@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wholecont{
+    display: flex;
+    flex-direction: row;
+   gap: 100px;
+}
+.skillscontainer{
+    
+}
+.sktop{
+    padding-bottom: 20px;
+}
+.sktop:hover {
+    border-bottom: 2px solid red;
+    width: 20px;
+}
+.readycolor{
+    color: red;
+    font-weight: bold;
+}
+.skillsbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7px;
+   
+}
+.skillsbody p:hoverskil {
+    display: flex;
+    position: absolute;
+    left: 0;
+}
